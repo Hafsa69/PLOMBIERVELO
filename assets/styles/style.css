@@ -1,0 +1,76 @@
+.card,.temoignage {
+    border: solid black 1px;
+    background-color: #E3DBD3;
+  
+}
+p{
+    background-color: #E3DBD3; 
+}
+section{
+    display: flex;
+    gap: 1rem;
+   
+}
+.av{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.liste{
+    border: solid black 1px;
+    display: flex;
+}
+
+nav>ul{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9CB2A5;
+
+}
+ul.nav{
+    display: flex;
+    gap: 2rem;
+    background-color: #9CB2A5;
+}
+
+a,strong,.navbar{
+    background-color: #9CB2A5;
+
+}
+
+h1,h2{
+    text-align: center;
+}
+
+
+button {
+    display: block;
+    margin: auto;
+    background-color: #9CB2A5;
+    color: white;
+    border: #9CB2A5;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 50px;
+}
+*{
+    background-color: #F1F1F1;
+}
